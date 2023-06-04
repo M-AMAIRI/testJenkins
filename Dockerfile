@@ -1,4 +1,5 @@
 FROM quay.io/keycloak/keycloak:latest as builder
+# for demonstration purposes only, please make sure to use proper certificates in production instead
 
 # Enable health and metrics support
 ENV KC_HEALTH_ENABLED=true
